@@ -12,14 +12,43 @@
     <packaging>pom</packaging>
     <groupId>com.stride.tracking</groupId>
     <artifactId>stride-dto</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${project.version}</version>
     <name>stride-dto</name>
+
+    <properties>
+        <project.version>0.0.2-SNAPSHOT</project.version>
+    </properties>
+
     <modules>
         <module>file-dto</module>
         <module>notification-dto</module>
         <module>profile-dto</module>
         <module>identity-dto</module>
     </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.stride.tracking</groupId>
+                <artifactId>file-dto</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.stride.tracking</groupId>
+                <artifactId>notification-dto</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.stride.tracking</groupId>
+                <artifactId>profile-dto</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.stride.tracking</groupId>
+                <artifactId>identity-dto</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <distributionManagement>
         <repository>
             <id>github</id>

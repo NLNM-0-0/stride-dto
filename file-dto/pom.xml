@@ -5,11 +5,10 @@
     <parent>
         <groupId>com.stride.tracking</groupId>
         <artifactId>stride-dto</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>file-dto</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>file-dto</name>
     <description>file-dto</description>
     <url/>
