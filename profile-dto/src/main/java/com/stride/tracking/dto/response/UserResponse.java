@@ -18,12 +18,12 @@ public class UserResponse {
     private String name;
     private String ava;
     private String dob;
-    private int height;
-    private int weight;
-    private boolean male;
+    private Integer height;
+    private Integer weight;
+    private Boolean male;
     private String city;
-    private int maxHeartRate;
+    private Integer maxHeartRate;
     private Map<Equipment, Integer> equipmentsWeight;
     private Map<HeartRateZone, Integer> heartRateZones;
-    private boolean isBlock;
+    private Boolean isBlock;
 }
