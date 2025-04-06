@@ -70,7 +70,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/NLNM-0-0/stride</url>
+            <url>https://maven.pkg.github.com/NLNM-0-0/stride-dto</url>
         </repository>
     </distributionManagement>
 </project>
