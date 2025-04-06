@@ -12,4 +12,8 @@ import lombok.NoArgsConstructor;
 public class IntrospectResponse {
     private boolean valid;
     private String userId;
+    private String username;
+    private String provider;
+    private String email;
+    private String scope;
 }
