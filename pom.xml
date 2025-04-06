@@ -17,6 +17,7 @@
     <modules>
         <module>file-dto</module>
         <module>notification-dto</module>
+        <module>profile-dto</module>
     </modules>
     <distributionManagement>
         <repository>
