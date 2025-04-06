@@ -16,6 +16,7 @@
     <name>stride-dto</name>
     <modules>
         <module>file-dto</module>
+        <module>notification-dto</module>
     </modules>
     <distributionManagement>
         <repository>
