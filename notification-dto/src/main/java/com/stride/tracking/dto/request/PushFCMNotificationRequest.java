@@ -13,4 +13,5 @@ public class PushFCMNotificationRequest {
     private String userId;
     private String title;
     private String message;
+    private String banner;
 }
