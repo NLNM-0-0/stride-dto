@@ -8,7 +8,7 @@
         <version>0.0.27-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>notify-file-dto</artifactId>
+    <artifactId>bridge-dto</artifactId>
     <name>notification-dto</name>
     <description>notification-dto</description>
     <url/>
