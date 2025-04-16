@@ -16,8 +16,7 @@
     <name>stride-dto</name>
 
     <modules>
-        <module>file-dto</module>
-        <module>notification-dto</module>
+        <module>notify-file-dto</module>
         <module>profile-dto</module>
         <module>identity-dto</module>
     </modules>

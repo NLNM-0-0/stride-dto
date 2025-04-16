@@ -8,9 +8,9 @@
         <version>0.0.24-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>file-dto</artifactId>
-    <name>file-dto</name>
-    <description>file-dto</description>
+    <artifactId>notify-file-dto</artifactId>
+    <name>notification-dto</name>
+    <description>notification-dto</description>
     <url/>
     <licenses>
         <license/>
@@ -72,4 +72,5 @@
             <url>https://maven.pkg.github.com/NLNM-0-0/stride-dto</url>
         </repository>
     </distributionManagement>
+
 </project>
