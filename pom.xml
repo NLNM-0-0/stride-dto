@@ -19,6 +19,7 @@
         <module>bridge-dto</module>
         <module>profile-dto</module>
         <module>identity-dto</module>
+        <module>core-dto</module>
     </modules>
 
     <distributionManagement>
