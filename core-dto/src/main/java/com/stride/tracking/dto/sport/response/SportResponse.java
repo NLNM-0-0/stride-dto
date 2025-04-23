@@ -1,6 +1,7 @@
 package com.stride.tracking.dto.sport.response;
 
 import com.stride.tracking.dto.category.response.CategoryResponse;
+import com.stride.tracking.dto.sport.SportMapType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,5 +18,6 @@ public class SportResponse {
     private CategoryResponse category;
     private String name;
     private String image;
+    private SportMapType sportMapType;
     private List<RuleResponse> rules;
 }
