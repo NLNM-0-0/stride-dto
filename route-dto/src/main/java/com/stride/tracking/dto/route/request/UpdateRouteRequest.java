@@ -11,11 +11,8 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateRouteRequest {
-    private String sportId;
+public class UpdateRouteRequest {
     private String activityId;
-    private String sportMapType;
-    private Double avgTime;
+    private double avgTime;
     private List<String> images;
-    private List<List<Double>> coordinates;
 }

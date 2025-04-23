@@ -13,6 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 public class CreateActivityRequest {
     private String sportId;
+    private String routeId;
     private String name;
     private String description;
     private Double totalDistance;
