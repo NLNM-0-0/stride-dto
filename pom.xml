@@ -20,6 +20,7 @@
         <module>profile-dto</module>
         <module>identity-dto</module>
         <module>core-dto</module>
+        <module>route-dto</module>
     </modules>
 
     <distributionManagement>
