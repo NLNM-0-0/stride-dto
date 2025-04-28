@@ -14,5 +14,6 @@ import java.util.List;
 public class UpdateRouteRequest {
     private String activityId;
     private double avgTime;
+    private Double avgDistance;
     private List<String> images;
 }

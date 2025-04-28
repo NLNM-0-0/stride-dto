@@ -16,6 +16,7 @@ public class CreateRouteRequest {
     private String activityId;
     private String sportMapType;
     private Double avgTime;
+    private Double avgDistance;
     private List<String> images;
     private List<List<Double>> coordinates;
 }
