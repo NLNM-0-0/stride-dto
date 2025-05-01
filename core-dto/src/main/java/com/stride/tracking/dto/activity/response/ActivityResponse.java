@@ -20,7 +20,6 @@ public class ActivityResponse {
     private String description;
     private SportResponse sport;
     private ActivityUserResponse user;
-    private Double totalDistance;
     private Long elapsedTimeSeconds;
     private Long movingTimeSeconds;
     private Integer calories;
@@ -38,6 +37,9 @@ public class ActivityResponse {
     private List<Double> speeds;
     private Double avgSpeed;
     private Double maxSpeed;
+
+    private List<Double> distances;
+    private Double totalDistance;
 
     private List<Integer> heartRates;
     private Map<String, Integer> heartRateZones;

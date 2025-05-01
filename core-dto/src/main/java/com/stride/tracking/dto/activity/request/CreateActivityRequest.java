@@ -16,10 +16,8 @@ public class CreateActivityRequest {
     private String routeId;
     private String name;
     private String description;
-    private Double totalDistance;
     private Long movingTimeSeconds;
     private Long elapsedTimeSeconds;
-    private Double avgSpeed;
     private List<CoordinateRequest> coordinates;
     private List<Integer> heartRates;
     private List<String> images;
