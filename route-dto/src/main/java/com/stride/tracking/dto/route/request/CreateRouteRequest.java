@@ -18,5 +18,5 @@ public class CreateRouteRequest {
     private Double avgTime;
     private Double avgDistance;
     private List<String> images;
-    private List<List<Double>> coordinates;
+    private String geometry;
 }
