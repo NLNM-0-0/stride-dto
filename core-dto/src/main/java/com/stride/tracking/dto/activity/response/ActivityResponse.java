@@ -25,7 +25,8 @@ public class ActivityResponse {
     private Integer calories;
     private Double carbonSaved;
     private Integer rpe;
-    private List< List<Double>> coordinates;
+
+    private String geometry;
 
     private List<String> images;
     private String mapImage;
