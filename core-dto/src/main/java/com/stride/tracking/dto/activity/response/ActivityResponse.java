@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 @Data
 @Builder
@@ -43,7 +42,7 @@ public class ActivityResponse {
     private Double totalDistance;
 
     private List<Integer> heartRates;
-    private Map<String, Integer> heartRateZones;
+    private List<HeartRateZoneResponse> heartRateZones;
     private Double avgHearRate;
     private Double maxHearRate;
 
