@@ -18,5 +18,4 @@ public class CreateSportRequest {
     private String image;
     private SportMapType sportMapType;
     private List<RuleRequest> rules;
-    private double recommendedDistance;
 }
