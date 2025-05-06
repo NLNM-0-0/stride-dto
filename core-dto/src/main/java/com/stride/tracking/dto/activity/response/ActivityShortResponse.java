@@ -22,5 +22,6 @@ public class ActivityShortResponse {
     private Integer elevationGain;
     private Long movingTimeSeconds;
     private String mapImage;
+    private LocationResponse location;
     private Date createdAt;
 }

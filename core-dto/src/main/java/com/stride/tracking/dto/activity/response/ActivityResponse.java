@@ -46,5 +46,7 @@ public class ActivityResponse {
     private Double avgHearRate;
     private Double maxHearRate;
 
+    private LocationResponse location;
+
     private Date createdAt;
 }
