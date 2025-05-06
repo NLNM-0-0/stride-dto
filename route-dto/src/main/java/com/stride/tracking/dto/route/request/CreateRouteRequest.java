@@ -19,4 +19,7 @@ public class CreateRouteRequest {
     private Double avgDistance;
     private List<String> images;
     private String geometry;
+    private String ward;
+    private String district;
+    private String city;
 }
