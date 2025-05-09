@@ -44,7 +44,7 @@ public class ActivityResponse {
     private List<Integer> heartRates;
     private List<HeartRateZoneResponse> heartRateZones;
     private Double avgHearRate;
-    private Double maxHearRate;
+    private Integer maxHearRate;
 
     private LocationResponse location;
 
