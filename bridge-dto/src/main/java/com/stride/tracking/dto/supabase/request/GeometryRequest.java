@@ -13,5 +13,5 @@ import java.util.List;
 @NoArgsConstructor
 public class GeometryRequest {
     private String type;
-    private List<List<Double>> coordinates;
+    private List<double[]> coordinates;
 }
