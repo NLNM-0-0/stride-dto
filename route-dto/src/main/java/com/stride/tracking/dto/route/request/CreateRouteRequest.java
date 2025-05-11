@@ -14,6 +14,7 @@ import java.util.List;
 public class CreateRouteRequest {
     private String sportId;
     private String activityId;
+    private String routeName;
     private String sportMapType;
     private Double avgTime;
     private Double avgDistance;
