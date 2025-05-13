@@ -48,5 +48,7 @@ public class ActivityResponse {
 
     private LocationResponse location;
 
+    private String routeId;
+
     private Date createdAt;
 }
