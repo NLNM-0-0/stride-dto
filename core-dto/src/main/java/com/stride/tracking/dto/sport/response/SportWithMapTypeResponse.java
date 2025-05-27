@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class SportWithMapTypeShortResponse {
+public class SportWithMapTypeResponse {
     private String id;
     private String name;
     private String image;

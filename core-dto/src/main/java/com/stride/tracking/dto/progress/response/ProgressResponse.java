@@ -1,6 +1,6 @@
 package com.stride.tracking.dto.progress.response;
 
-import com.stride.tracking.dto.sport.response.SportWithMapTypeShortResponse;
+import com.stride.tracking.dto.sport.response.SportWithMapTypeResponse;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,7 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ProgressResponse {
-    private SportWithMapTypeShortResponse sport;
+    private SportWithMapTypeResponse sport;
 
     private List<ProgressBySportResponse> progresses;
 }
