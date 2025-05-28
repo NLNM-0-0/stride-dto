@@ -1,5 +1,6 @@
 package com.stride.tracking.dto.sport.response;
 
+import com.stride.tracking.dto.sport.SportMapType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,4 +14,6 @@ public class SportShortResponse {
     private String id;
     private String name;
     private String image;
+    private String color;
+    private SportMapType sportMapType;
 }
