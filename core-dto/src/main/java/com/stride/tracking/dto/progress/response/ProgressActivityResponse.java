@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @Data
 @Builder
 @AllArgsConstructor
@@ -16,4 +18,5 @@ public class ProgressActivityResponse {
     private Long distance;
     private Long elevation;
     private Long time;
+    private Date createdAt;
 }
