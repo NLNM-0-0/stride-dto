@@ -8,7 +8,7 @@
         <version>0.0.125-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>route-dto</artifactId>
+    <artifactId>metric-dto</artifactId>
     <name>route-dto</name>
     <description>route-dto</description>
     <url/>
