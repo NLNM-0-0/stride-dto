@@ -16,6 +16,7 @@ public class CreateSportRequest {
     private String categoryId;
     private String name;
     private String image;
+    private String color;
     private SportMapType sportMapType;
     private List<RuleRequest> rules;
 }
