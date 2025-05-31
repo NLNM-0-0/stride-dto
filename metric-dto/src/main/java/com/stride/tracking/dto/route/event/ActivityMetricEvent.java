@@ -18,6 +18,7 @@ public class ActivityMetricEvent {
 
     private String userId;
     private String sportId;
+    private String name;
     private double movingTimeSeconds;
     private double elevationGain;
     private double distance;
