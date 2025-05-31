@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
+import java.time.Instant;
 
 @Data
 @Builder
@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 public class ActivityMetricEvent {
     private String activityId;
 
-    private LocalDateTime time;
+    private Instant time;
 
     private String userId;
     private String sportId;
