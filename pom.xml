@@ -12,7 +12,7 @@
     <packaging>pom</packaging>
     <groupId>com.stride.tracking</groupId>
     <artifactId>stride-dto</artifactId>
-    <version>0.0.128-SNAPSHOT</version>
+    <version>0.0.131-SNAPSHOT</version>
     <name>stride-dto</name>
 
     <modules>
