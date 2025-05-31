@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class SportUpdateEvent {
     private String id;
+    private String image;
     private String name;
     private String color;
     private SportMapType sportMapType;
