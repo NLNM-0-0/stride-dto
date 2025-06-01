@@ -1,6 +1,6 @@
 package com.stride.tracking.metric.dto.report.response;
 
-import com.stride.tracking.metricservice.constant.AuthProvider;
+import com.stride.tracking.metric.dto.report.AuthProvider;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
