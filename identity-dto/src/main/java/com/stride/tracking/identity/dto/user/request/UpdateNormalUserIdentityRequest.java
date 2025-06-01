@@ -9,8 +9,6 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class UpdateUserIdentityRequest {
-    private String email;
-    private String password;
+public class UpdateNormalUserIdentityRequest {
     private Boolean isBlocked;
 }
