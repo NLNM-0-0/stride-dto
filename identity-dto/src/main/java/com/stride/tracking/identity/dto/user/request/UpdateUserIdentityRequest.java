@@ -12,4 +12,5 @@ import lombok.NoArgsConstructor;
 public class UpdateUserIdentityRequest {
     private String email;
     private String password;
+    private Boolean isBlocked;
 }
