@@ -14,7 +14,5 @@ import java.time.Instant;
 public class ActivityUpdatedEvent {
     private String activityId;
 
-    private Instant time;
-
     private String name;
 }
