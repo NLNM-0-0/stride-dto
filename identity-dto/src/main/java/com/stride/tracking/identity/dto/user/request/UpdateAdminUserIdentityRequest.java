@@ -8,6 +8,5 @@ import lombok.*;
 @AllArgsConstructor
 public class UpdateAdminUserIdentityRequest{
     private String email;
-    private String password;
     private Boolean isBlocked;
 }
