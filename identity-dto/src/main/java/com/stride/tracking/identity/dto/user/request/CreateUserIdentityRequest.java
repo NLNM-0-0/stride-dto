@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CreateUserIdentityRequest {
+    private String userId;
     private String email;
     private String password;
     private Boolean isAdmin;
