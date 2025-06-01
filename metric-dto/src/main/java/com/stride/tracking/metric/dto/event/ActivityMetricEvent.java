@@ -19,9 +19,9 @@ public class ActivityMetricEvent {
     private String userId;
     private String sportId;
     private String name;
-    private double movingTimeSeconds;
-    private double elevationGain;
-    private double distance;
+    private long movingTimeSeconds;
+    private long elevationGain;
+    private long distance;
     private String mapImage;
     private String location;
 }
