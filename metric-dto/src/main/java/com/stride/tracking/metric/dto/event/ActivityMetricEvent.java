@@ -22,5 +22,6 @@ public class ActivityMetricEvent {
     private double movingTimeSeconds;
     private double elevationGain;
     private double distance;
+    private String mapImage;
     private String location;
 }
