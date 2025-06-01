@@ -1,4 +1,4 @@
-package com.stride.tracking.metric.dto.event;
+package com.stride.tracking.metric.dto.activity.event;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,7 +11,7 @@ import java.time.Instant;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class ActivityMetricEvent {
+public class ActivityCreatedEvent {
     private String activityId;
 
     private Instant time;
