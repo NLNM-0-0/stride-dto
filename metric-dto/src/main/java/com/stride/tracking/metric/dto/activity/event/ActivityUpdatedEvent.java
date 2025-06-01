@@ -1,0 +1,20 @@
+package com.stride.tracking.metric.dto.activity.event;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.time.Instant;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class ActivityUpdatedEvent {
+    private String activityId;
+
+    private Instant time;
+
+    private String name;
+}
