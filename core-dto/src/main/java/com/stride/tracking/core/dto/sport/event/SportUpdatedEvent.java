@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class SportUpdateEvent {
+public class SportUpdatedEvent {
     private String id;
     private String image;
     private String name;
