@@ -1,4 +1,4 @@
-package com.stride.tracking.core.dto.sport.event;
+package com.stride.tracking.core.dto.category.event;
 
 import com.stride.tracking.core.dto.sport.SportMapType;
 import lombok.AllArgsConstructor;
@@ -10,11 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class SportUpdatedEvent {
+public class CategoryUpdatedEvent {
     private String id;
-    private String image;
     private String name;
-    private String color;
-    private String categoryId;
-    private SportMapType sportMapType;
 }
