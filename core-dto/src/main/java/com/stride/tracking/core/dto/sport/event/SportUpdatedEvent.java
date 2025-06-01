@@ -15,5 +15,6 @@ public class SportUpdatedEvent {
     private String image;
     private String name;
     private String color;
+    private String category;
     private SportMapType sportMapType;
 }
