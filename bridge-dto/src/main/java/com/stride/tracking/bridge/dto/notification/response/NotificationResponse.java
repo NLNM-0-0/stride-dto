@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -13,6 +15,8 @@ public class NotificationResponse {
     private String id;
     private String title;
     private String body;
+
+    private Date createdAt;
 
     private boolean seen;
 }
