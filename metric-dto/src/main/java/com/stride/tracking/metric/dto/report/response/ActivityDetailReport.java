@@ -16,5 +16,5 @@ public class ActivityDetailReport {
     private long elevationGain;
     private long distance;
     private int calories;
-    private int avgHeartRate;
+    private double avgHeartRate;
 }
