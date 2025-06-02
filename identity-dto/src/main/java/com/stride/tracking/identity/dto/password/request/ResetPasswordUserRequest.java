@@ -1,4 +1,4 @@
-package com.stride.tracking.identity.dto.resetpassword.request;
+package com.stride.tracking.identity.dto.password.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
