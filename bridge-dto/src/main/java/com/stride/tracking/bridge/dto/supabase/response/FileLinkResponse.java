@@ -9,8 +9,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class GetLocationByGeometryResponse {
-    private String ward;
-    private String district;
-    private String city;
+public class FileLinkResponse {
+	private String file;
 }

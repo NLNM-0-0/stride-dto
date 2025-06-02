@@ -1,4 +1,4 @@
-package com.stride.tracking.bridge.dto.response;
+package com.stride.tracking.bridge.dto.notification.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class FileLinkResponse {
-	private String file;
+public class NotificationFilter {
+    private Boolean seen;
 }

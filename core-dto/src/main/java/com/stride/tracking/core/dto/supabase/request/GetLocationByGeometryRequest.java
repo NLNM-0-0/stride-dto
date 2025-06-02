@@ -1,4 +1,4 @@
-package com.stride.tracking.bridge.dto.supabase.request;
+package com.stride.tracking.core.dto.supabase.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
