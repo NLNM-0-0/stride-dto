@@ -1,4 +1,4 @@
-package com.stride.tracking.profile.dto.user.request;
+package com.stride.tracking.profile.dto.profile.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateUserRequest {
+public class CreateProfileRequest {
     private String name;
     private String ava;
     private String email;

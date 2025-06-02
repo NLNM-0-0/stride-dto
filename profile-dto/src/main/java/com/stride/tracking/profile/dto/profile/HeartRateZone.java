@@ -1,4 +1,4 @@
-package com.stride.tracking.profile.dto.user;
+package com.stride.tracking.profile.dto.profile;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
