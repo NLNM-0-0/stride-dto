@@ -1,8 +1,16 @@
 package com.stride.tracking.core.dto.goal;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
 public enum GoalType {
-    ACTIVITY,
-    DISTANCE,
-    TIME,
-    ELEVATION
+    ACTIVITY(false),
+    DISTANCE(false),
+    TIME(true),
+    ELEVATION(true),
+    ;
+
+    private final Boolean isRequiredMap;
 }
