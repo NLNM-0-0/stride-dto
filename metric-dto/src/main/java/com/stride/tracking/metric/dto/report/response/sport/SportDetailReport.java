@@ -1,4 +1,4 @@
-package com.stride.tracking.metric.dto.report.response;
+package com.stride.tracking.metric.dto.report.response.sport;
 
 import com.stride.tracking.metric.dto.sport.SportMapType;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.stride.tracking.metric.dto.report.response;
+package com.stride.tracking.metric.dto.report.response.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
