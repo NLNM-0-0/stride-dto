@@ -16,5 +16,5 @@ import java.util.EnumMap;
 public class SportMapTypeByDateDetailReport {
     private SportMapType type;
     private Integer numberActivities;
-    private Integer time;
+    private Long time;
 }
