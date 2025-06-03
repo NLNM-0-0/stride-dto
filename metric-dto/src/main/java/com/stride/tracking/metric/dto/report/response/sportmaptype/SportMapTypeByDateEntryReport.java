@@ -15,5 +15,5 @@ import java.util.List;
 public class SportMapTypeByDateEntryReport {
     private Date from;
     private Date to;
-    private List<SportMapTypeByDateEntryReport> values;
+    private List<SportMapTypeByDateDetailReport> values;
 }
