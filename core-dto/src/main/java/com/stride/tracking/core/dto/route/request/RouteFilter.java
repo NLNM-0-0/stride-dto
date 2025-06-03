@@ -13,4 +13,5 @@ public class RouteFilter {
     private String userId;
     private String sportId;
     private Boolean publicRoute;
+    private Integer minDistance;
 }
