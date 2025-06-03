@@ -15,5 +15,6 @@ import java.util.EnumMap;
 @NoArgsConstructor
 public class SportMapTypeByDateDetailReport {
     private SportMapType type;
-    private Integer value;
+    private Integer numberActivities;
+    private Integer time;
 }
