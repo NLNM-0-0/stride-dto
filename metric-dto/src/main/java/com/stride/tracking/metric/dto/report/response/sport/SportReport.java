@@ -13,7 +13,6 @@ import java.util.List;
 @NoArgsConstructor
 public class SportReport {
     private Integer numberSports;
-    private Integer numberHasMap;
-    private Integer numberDoNotHaveMap;
+    private List<SportMapTypeDetailReport> sportMapTypes;
     private List<SportDetailReport> sports;
 }

@@ -1,6 +1,6 @@
 package com.stride.tracking.metric.dto.report.response;
 
-import com.stride.tracking.metric.dto.report.response.sportmaptype.SportMapTypeDetailReport;
+import com.stride.tracking.metric.dto.report.response.sportmaptype.SportMapTypeByDateEntryReport;
 import com.stride.tracking.metric.dto.report.response.user.UserReport;
 import com.stride.tracking.metric.dto.report.response.activity.ActivityReport;
 import com.stride.tracking.metric.dto.report.response.sport.SportReport;
@@ -19,5 +19,5 @@ public class GetReportResponse {
     private ActivityReport activity;
     private SportReport sportReport;
     private UserReport userReport;
-    private List<SportMapTypeDetailReport> sportMapTypes;
+    private List<SportMapTypeByDateEntryReport> sportMapTypes;
 }
