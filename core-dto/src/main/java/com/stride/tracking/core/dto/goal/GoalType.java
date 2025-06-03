@@ -12,5 +12,5 @@ public enum GoalType {
     ELEVATION(true),
     ;
 
-    private final Boolean isRequiredMap;
+    private final boolean isRequiredMap;
 }
