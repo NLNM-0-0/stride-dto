@@ -8,7 +8,8 @@ import lombok.Getter;
 public enum SportMapType {
     DRIVING("driving", 10, 1000),
     WALKING("walking", 1, 100),
-    CYCLING("cycling", 10, 1000);
+    CYCLING("cycling", 10, 1000),
+    NO_MAP(null, 0, 0);
 
     private final String lowercase;
     private final int recordMeters;
