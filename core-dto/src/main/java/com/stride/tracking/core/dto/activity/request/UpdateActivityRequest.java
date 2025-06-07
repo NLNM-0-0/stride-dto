@@ -28,6 +28,5 @@ public class UpdateActivityRequest {
 
     private List<String> images;
 
-    @Size(min = 1, message = "Description must not be empty")
     private String description;
 }
