@@ -37,7 +37,6 @@ public class UpdateProfileRequest {
     @PositiveOrZero(message = "Weight must be zero or positive")
     private Integer weight;
 
-    @NotNull(message = "Male must not be null")
     private Boolean male;
 
     @PositiveOrZero(message = "Max heart rate must be zero or positive")
