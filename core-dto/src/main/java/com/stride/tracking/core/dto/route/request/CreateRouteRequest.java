@@ -37,8 +37,8 @@ public class CreateRouteRequest {
     @NotNull(message = "Images list must not be null")
     private List<String> images;
 
-    @NotBlank(message = "Geometry must not be blank")
-    private String geometry;
+    @NotNull(message = "Geometry must not be null")
+    private List<List<Double>> geometry;
 
     @NotBlank(message = "Ward must not be blank")
     private String ward;
@@ -48,4 +48,7 @@ public class CreateRouteRequest {
 
     @NotBlank(message = "City must not be blank")
     private String city;
+
+    @NotBlank(message = "Map image must not be blank")
+    private String mapImage;
 }
