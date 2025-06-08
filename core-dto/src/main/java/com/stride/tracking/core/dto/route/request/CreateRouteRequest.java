@@ -48,7 +48,4 @@ public class CreateRouteRequest {
 
     @NotBlank(message = "City must not be blank")
     private String city;
-
-    @NotBlank(message = "Map image must not be blank")
-    private String mapImage;
 }
